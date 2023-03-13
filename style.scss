@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 $primaryColor: #26364d;
 $color2: #b27d60;
 $color3: #416c94;
@@ -6,7 +6,7 @@ $color4: #767474;
 
 
 *{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -23,10 +23,9 @@ $color4: #767474;
     @media(max-width:600px){}
 
     .navbar{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        // padding-top: 50px;
+        display: inline-flex;
+        // justify-content: space-around;
+        // align-items: center;
         padding: 50px 10% 0 10%;
     
         .logo{
@@ -43,7 +42,7 @@ $color4: #767474;
         ul li{
             list-style-type: none;
             display: inline-block;
-            padding: 10px 30px;
+            padding: 10px 40px;
         }
     
         ul li a{
